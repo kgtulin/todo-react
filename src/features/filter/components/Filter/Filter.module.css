@@ -1,0 +1,6 @@
+.flex {display:flex; width:100%; align-items: center}
+.input {flex-grow:2; padding-top:2px;}
+.buttons {width:150px; text-align:right;}
+
+.buttonActive {background:silver}
+.buttonNormal {}

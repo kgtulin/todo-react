@@ -5,6 +5,7 @@ import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import {TodosList} from "./features/todos/components/TodosList/TodosList";
 
 const container = document.getElementById('root')!;
 const root = createRoot(container);
@@ -12,7 +13,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <TodosList/>
     </Provider>
   </React.StrictMode>
 );

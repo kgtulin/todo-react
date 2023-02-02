@@ -1,0 +1,5 @@
+.flex {display:flex; height:100%; align-content: center; padding-top: 50px;}
+
+.leftField {flex-grow:1}
+.rightField {flex-grow:1}
+.todoList {flex-grow:2; max-width: 600px;}
